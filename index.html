@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Onasanya precious – Portfolio</title>
+    <meta
+      name="description"
+      content="Clean, fast, single-file portfolio template you can host anywhere."
+    />
+    <meta name="theme-color" content="#111827" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ====== Header ====== -->
+    <header>
+      <div class="container nav">
+        <a class="brand" href="#top">
+          <div class="badge" aria-hidden="true"><span>OP</span></div>
+          <span>Onasanya Precious</span>
+        </a>
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-expanded="false"
+          aria-controls="primaryNav"
+        >
+          Menu
+        </button>
+        <nav id="primaryNav" aria-label="Primary">
+          <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- ====== Hero ====== -->
+    <main id="top" class="container">
+      <section class="hero">
+        <div>
+          <div class="kicker">Designer • Developer • Your Role</div>
+          <h1>
+            Hi, I'm Onasanya Precious. I build clean, fast experiences for the
+            web.
+          </h1>
+          <p class="subtitle">
+            Short 1–2 line summary of what you do, who you help, and what tools
+            you love. Keep it focused and friendly.
+          </p>
+          <div class="cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="mailto:preciousonasanya28@example.com">Email Me</a>
+            <a class="btn" href="#resume">Download Resume</a>
+          </div>
+        </div>
+      </section>
+      <!-- ====== Projects ====== -->
+      <section id="projects">
+        <div class="section-title">
+          <h2>Featured Projects</h2>
+          <span class="hint">Hand-picked work showcasing your skills.</span>
+        </div>
+        <div class="grid">
+          <!-- Card 1 -->
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1200&auto=format&fit=crop"
+              alt="Dashboard preview"
+            />
+            <div class="content">
+              <span class="chip">React</span><span class="chip">API</span>
+              <h3>Analytics Dashboard</h3>
+              <p>
+                Responsive dashboard pulling live data, with caching and charts.
+                Built for speed and clarity.
+              </p>
+            </div>
+            <div class="links">
+              <a class="btn" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn" href="#" target="_blank" rel="noopener">Code</a>
+              <a class="btn" href="#" target="_blank" rel="noopener"
+                >Case Study</a
+              >
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop"
+              alt="Website screens"
+            />
+            <div class="content">
+              <span class="chip">HTML</span><span class="chip">CSS</span>
+              <h3>Marketing Website</h3>
+              <p>
+                Modern landing page with semantic HTML, great Lighthouse scores,
+                and accessible components.
+              </p>
+            </div>
+            <div class="links">
+              <a class="btn" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn" href="#" target="_blank" rel="noopener">Code</a>
+              <a class="btn" href="#" target="_blank" rel="noopener"
+                >Case Study</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ====== About & Skills ====== -->
+      <section id="about">
+        <div class="section-title">
+          <h2>About</h2>
+          <span class="hint">Who i'm are and what i care about.</span>
+        </div>
+        <div class="about">
+          <div class="hero-card">
+            <p>
+              I'm a Web Developer focused on building fast, accessible products.
+              I enjoy working with React, vanilla JS, and clean HTML/CSS.
+              Currently learning TypeScript and exploring UI performance
+              patterns.
+            </p>
+            <p>
+              When I'm not coding, I mentor beginners and contribute to
+              open-source docs.
+            </p>
+          </div>
+          <div class="hero-card">
+            <strong>Skills</strong>
+            <div>
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+              <span class="pill">JavaScript</span>
+              <span class="pill">Git/GitHub</span>
+              <span class="pill">Figma</span>
+              <!-- <span class="pill">React</span> -->
+              <!-- <span class="pill">Accessibility</span> -->
+            </div>
+            <div style="margin-top: 16px">
+              <strong>Tools</strong>
+              <div>
+                <span class="pill">VS Code</span>
+                <span class="pill">Chrome DevTools</span>
+                <span class="pill">Vercel</span>
+                <!-- <span class="pill">Netlify</span> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== Resume (download) ====== -->
+      <section id="resume">
+        <div class="section-title">
+          <h2>Resume</h2>
+          <span class="hint">Keep a PDF in the repo and link it here.</span>
+        </div>
+        <div class="hero-card">
+          <p>
+            Add your latest resume as <code>resume.pdf</code> in the same folder
+            as this HTML file, then update the link below.
+          </p>
+          <a class="btn" href="resume.pdf" download>Download PDF</a>
+        </div>
+      </section>
+
+      <!-- ====== Contact ====== -->
+      <section id="contact">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <span class="hint">Let's work together.</span>
+        </div>
+        <div class="contact">
+          <form
+            class="hero-card"
+            action="mailto:you@example.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <label>
+              Name
+              <input name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input
+                name="email"
+                type="email"
+                placeholder="Your@example.com"
+                required
+              />
+            </label>
+            <label style="grid-column: 1 / -1">
+              Message
+              <textarea
+                name="message"
+                placeholder="Tell me about your project..."
+                required
+              ></textarea>
+            </label>
+            <button class="btn primary" type="submit">Send</button>
+          </form>
+          <div class="hero-card">
+            <p><b>Email:</b> preciousonasanya28@example.com</p>
+            <p><b>Location:</b> Ogun State, Nigeria</p>
+            <p>
+              <b>Social:</b> 
+              <a href="#">LinkedIn: https://www.linkedin.com/in/precious-onasanya-073a82302/</a> · 
+              <a href="#">GitHub</a> ·
+              <a href="#">Twitter</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+       Copyright © <span id="year"></span> Onasanya Precious.
+      </div>
+    </footer>
+
+
+
+    <script>
+      // Set current year in footer
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // Simple mobile menu toggle
+      const menuBtn = document.getElementById("menuBtn");
+      const nav = document.getElementById("primaryNav").querySelector("ul");
+      menuBtn?.addEventListener("click", () => {
+        const open = nav.style.display === "flex";
+        nav.style.display = open ? "none" : "flex";
+        nav.style.flexDirection = "column";
+        nav.style.gap = "16px";
+        menuBtn.setAttribute("aria-expanded", String(!open));
+      });
+    </script>
+  </body>
+</html>

@@ -1,11 +1,11 @@
 /* ====== Base Styles ====== */
 :root {
-  --bg: #0b1220; /* page background */
-  --card: #121a2b; /* card background */
-  --muted: #a3b1c6; /* secondary text */
-  --text: #e8eefc; /* main text */
-  --brand: #5ab0ff; /* accent color */
-  --brand-2: #9d7bff; /* gradient 2 */
+  --bg: #0b1220; 
+  --card: #121a2b; 
+  --muted: #a3b1c6; 
+  --text: #e8eefc; 
+  --brand: #5ab0ff; 
+  --brand-2: #9d7bff; 
   --ring: rgba(90, 176, 255, 0.4);
   --radius: 18px;
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
